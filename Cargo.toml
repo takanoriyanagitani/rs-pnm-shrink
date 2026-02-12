@@ -3,7 +3,16 @@ name = "rs-pnm-shrink"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the resized portable image."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-pnm-shrink"
+homepage = "https://github.com/takanoriyanagitani/rs-pnm-shrink"
+documentation = "https://docs.rs/rs-pnm-shrink/latest"
+keywords = ["image", "resize", "pnm", "pam", "wasi"]
+
 exclude = [
+    "rs-pnm-shrink.wasm",
+    "opt.wasm",
 ]
 
 [lints.rust]
